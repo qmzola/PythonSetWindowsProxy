@@ -1,6 +1,11 @@
 import winreg
+import configparser
 
-Proxy_Adderss= "192.168.37.25:20000"
+config=configparser.ConfigParser()
+config.read('config.ini')
+
+
+Proxy_Adderss= config['ProxyAdderss']
 ProxyRegistryPath=r'Software\Microsoft\Windows\CurrentVersion\Internet Settings'
 
 try:
