@@ -41,3 +41,4 @@ finally:
     # 确保关闭注册表键
     if 'ProxyEnable' in locals():
         winreg.CloseKey(ProxyEnable)
+input("Press Enter to exit...")
