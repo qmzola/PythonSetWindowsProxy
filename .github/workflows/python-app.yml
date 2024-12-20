@@ -36,6 +36,8 @@ jobs:
     - name: Building
       run: |
         pyinstaller --uac-admin -n PythonSetWindowsProxy main.py
+        dir
+        chdir
     - name: Upload EXE as artifact
       uses: actions/upload-artifact@v3
       with:
