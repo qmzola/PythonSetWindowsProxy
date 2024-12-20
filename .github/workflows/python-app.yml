@@ -35,7 +35,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Building
       run: |
-        pyinstaller --uac-admin --name-PythonSetWindowsProxy main.py
+        pyinstaller --uac-admin -n PythonSetWindowsProxy main.py
     - name: Upload EXE as artifact
       uses: actions/upload-artifact@v3
       with:
