@@ -12,7 +12,7 @@ on:
     branches: [ "master" ]
 
 permissions:
-  contents: write
+  contents: write and read
 
 jobs:
   build:
