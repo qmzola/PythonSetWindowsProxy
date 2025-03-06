@@ -12,7 +12,8 @@ on:
     branches: [ "master" ]
 
 permissions:
-  contents: write and read
+  contents: write
+  action: read
 
 jobs:
   build:
