@@ -7,6 +7,8 @@
 2.去Actions下载编译好的exe，在同文件夹下创建config.ini，右键管理员运行
 
 config.ini模板
+···
   [Proxy]
   #Address=IP：Port
   Address=127.0.0.1:10809
+···
